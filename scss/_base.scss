@@ -1,0 +1,65 @@
+@import 'icon/*.png';
+@include all-icon-sprites;
+
+body{
+	background: url("../img/sprite-universe-bw.jpg") fixed no-repeat;
+	background-size: cover;
+	color:#ffffff;
+}
+
+h1{
+	font-family: 'Bungee', cursive;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 3em;
+}
+p{
+	font-family: 'Comfortaa', cursive;
+	text-align: center;
+}
+i{
+	height:100px;
+	width:100px;
+	display:none;
+}
+
+li{
+	list-style: none;
+	display: inline-block;
+	padding: 10px;
+	//margin-left: 80px;
+
+
+	a{
+		display: inline-block;
+		width:100px;
+		height:100px;
+		span{position: absolute;
+			top: -9999em;
+			left: -9999em;
+		}//a
+	}//span
+}//li
+
+.itembox{
+	width:700px;
+	margin-left: 200px;
+}
+.textbox{
+	width:700px;
+	margin-left: 130px;
+	padding-top: 2px;
+	padding-bottom: 20px;
+}
+//.move{
+//	position: absolute;
+//	left: 340px;
+//}
+.move1{padding-left: 125px;}
+
+.sitebox{
+	width:960px;
+	margin: 0 auto;
+}
